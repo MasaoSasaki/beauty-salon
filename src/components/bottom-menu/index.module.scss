@@ -1,0 +1,32 @@
+.bottom_menu {
+  width: 100%;
+  background-color: rgba($color: white, $alpha: 0.9);
+  position: fixed;
+
+  transition: 0.3s linear;
+  bottom: 0px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    a {
+      display: contents;
+
+      li {
+        height: 50px;
+        flex: 1;
+        border: solid 1px rgba($color: gray, $alpha: 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  &.hide {
+    bottom: -50px;
+  }
+}
