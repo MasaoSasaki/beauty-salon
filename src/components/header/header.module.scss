@@ -5,6 +5,7 @@
   }
 
   .hamburger {
+    @media (min-width: 769px) { display: none; }
     width: 30px;
     height: 30px;
     position: fixed;

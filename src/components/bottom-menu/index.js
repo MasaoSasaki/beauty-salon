@@ -19,7 +19,7 @@ export const BottomMenu = () => {
   }, [])
 
   return (
-    <div id="menu-bar" className={`${styles.bottom_menu} ${isOpenMenuBar || styles.hide} `}>
+    <div id="menu-bar" className={`${styles.bottom_menu} ${isOpenMenuBar || styles.hide}`}>
      <ul>
        <Link href="tel: xxx-xxxx-xxxx"><a><li><FontAwesomeIcon icon={faPhone} size="2x" /></li></a></Link>
        <Link href="mailto: beauty-salon@example.com"><a><li><FontAwesomeIcon icon={faEnvelope} size="2x" /></li></a></Link>
